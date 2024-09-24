@@ -3,6 +3,7 @@
 
 
 def rain(walls):
+	"""Function to calculate the water retained by the walls"""
     if not walls:  # If the list is empty, return 0
 	return 0
 
